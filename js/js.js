@@ -46,16 +46,16 @@ $(document).ready(function(){
     $(".portfolio-category").click(function(){
        navFocus($(this));
 
-       $(".portfolio-img-grid-category img").hide();    
-       for (var i = 0; i < $(".portfolio-img-grid-category img").length; i++) {
-           if (document.querySelectorAll(".portfolio-img-grid-category img")[i].attributes.category.value==$(this).attr("category")) {  
-            document.querySelectorAll(".portfolio-img-grid-category img")[i].style.display="block";
+       $(".portfolio-img-grid-category a").hide();    
+       for (var i = 0; i < $(".portfolio-img-grid-category a").length; i++) {
+           if (document.querySelectorAll(".portfolio-img-grid-category a")[i].attributes.category.value==$(this).attr("category")) {  
+            document.querySelectorAll(".portfolio-img-grid-category a")[i].style.display="block";
            } 
        }
     });
 
     document.querySelectorAll(".portfolio-category")[0].addEventListener("click",function(){
-        $(".portfolio-img-grid-category img").show();
+        $(".portfolio-img-grid-category a").show();
     });
     //====================END PORTFOLIO CLICK==========//
     //====================START PORTFOLIO COLOR==========//
