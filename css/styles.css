@@ -97,6 +97,9 @@ h3.white-h3::after{
     color: var(--color-yellow);
     background-color: #f9f9f9;
 }
+.section-btn:hover a{
+    color: var(--color-yellow);
+}
 a{
     text-decoration: none;
     color: #f9f9f9;
@@ -206,7 +209,7 @@ header{
 /* -------------END HEADER------------------ */
 /* -------------START HOME------------------ */
 #home{
-    background-image: url(../img/asian.jpg);
+    background-image: url(../img/programador.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -592,7 +595,7 @@ header{
 /*==================END RESUME=================*/
 /*==================START PROJECTS=================*/
 #projectos{
-    background-image: url("http://lorempixel.com/1800/500/animals/");
+    background-image: url("../img/chess.jpg");
     background-attachment: fixed;
     background-size: cover;
     
@@ -769,9 +772,39 @@ header{
 }
 /*==================END PORTFOLIO=================*/
 
+/*  START BLOG
+======================================================================*/
+#blog{
+    background-color: var(--color-black-secondary);
+    padding: 100px 0;
+}
+.blog{
+    width: 100%;
+    display: flex;
+}
+.blog p{
+    flex: 1;
+    font-size: 50px;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 50px ;
+}
+.blog div{
+    flex:3;
+}
+.blog div img{
+    max-width: 100%;
+}
+@media (max-width: 40rem){
+    .blog{
+        flex-direction: column;
+    }
+}
+
+
 /*===================START CONTACT================*/
 #contact{
-    background-color: var(--color-black-secondary);
+    background-color: var(--color-black-primary);
     padding: 100px 0;
 }
 .contact-form-grid{
