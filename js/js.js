@@ -1,3 +1,12 @@
+/**
+ * Estoy al tanto de que el código realizado aqui necesita varios cambios
+ * Los editare con el pasar del tiempo
+ * Disculpen si les incomoda el uso de var y JQuery
+ * *Solo que cuando empeze haciendo este proyecto como un pasatiempo
+ * * no crei que se convertiria en un cv de presentación
+ * 
+ * 
+ **/
 $(document).ready(function(){
 
     //====================START HEADER & NAV==========// 
