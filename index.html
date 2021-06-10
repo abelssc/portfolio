@@ -347,12 +347,13 @@
                     <div class="datos__email"></div>
                     <div class="datos__callme"></div>
                 </div>
-                <form action="#" method="POST" class="contact-form-grid">
-                        <input type="text" name="" id="contact__nombre" placeholder="Name">
-                        <input type="email" name="" id="contact__email" placeholder="Email">
-                        <input type="text" name="" id="contact__asunto" placeholder="Subject">
-                        <textarea name="" id="contact__message" placeholder="Your message Here"></textarea>
-                        <div class="bg-yellow section-btn" id="contact__btn">Send message</div>
+                <form enctype="text/plain" action="mailto:abel_silva27@hotmail.com" method="POST" class="contact-form-grid">
+                        <input type="text" name="Nombre" id="contact__nombre" placeholder="Name">
+                        <input type="email" name="Email" id="contact__email" placeholder="Email">
+                        <input type="text" name="Asunto" id="contact__asunto" placeholder="Subject">
+                        <textarea name="Contenido" id="contact__message" placeholder="Your message Here"></textarea>
+                        <button class="bg-yellow section-btn" id="contact__btn" type="submit">Send messaje</button>
+                        
                 </form>
             </div>
 
