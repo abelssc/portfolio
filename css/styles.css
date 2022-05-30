@@ -104,6 +104,9 @@ a{
     text-decoration: none;
     color: #f9f9f9;
 }
+p{
+    word-wrap:break-word;
+}
 /* -------------END PADRES------------------ */
 /* --------------START CLASES JS-------------- */
 .category-click{
@@ -468,6 +471,7 @@ header{
     background-color: #444444;
     margin-top: 5px;
     position: relative;
+    overflow: hidden;
 }
 .skills-porcentaje .skills-after{
     height: 100%;
