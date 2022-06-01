@@ -824,12 +824,14 @@ header{
     grid-area: nombre;
     height: 50px;
     padding: 0 20px ;
+    width: 100%;
 
 }
 #contact__email{
     grid-area: correo;
     height: 50px;
     padding: 0 20px;
+    width: 100%;
 }
 #contact__asunto{
     grid-area: asunto;
