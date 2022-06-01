@@ -233,7 +233,7 @@ header{
     left: 0;
     transform: translateY(-50%);
 }
-@media (min-width:320px){
+@media (min-width:40rem){
     #home-center{
         padding-left: 70px;
     }
@@ -280,7 +280,7 @@ header{
    margin: 0 20px;
    position: relative;
 }
-@media (max-width:320px){
+@media (max-width:40rem){
     #home-btn{
         margin: 0 auto;
         text-align: center;
